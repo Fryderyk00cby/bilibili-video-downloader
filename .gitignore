@@ -1,0 +1,12 @@
+.conda/
+.conda-pkgs/
+downloads/
+cookies*.txt
+*.cookies.txt
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.env

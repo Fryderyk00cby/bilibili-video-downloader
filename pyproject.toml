@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bilibili-video-downloader"
+version = "0.1.0"
+description = "Download a Bilibili video by BV ID"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["yt-dlp>=2026.3.3"]
+
+[project.scripts]
+bili-download = "bilibili_downloader.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

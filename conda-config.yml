@@ -1,0 +1,3 @@
+# Project-scoped override for malformed user-level custom channel mappings.
+custom_channels:
+  conda-forge: https://conda.anaconda.org
