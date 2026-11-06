@@ -1,5 +1,7 @@
 # Bilibili BV 视频下载器
 
+**简体中文** | [English](README.en.md)
+
 Python 命令行项目：输入 BV 号，自动解析视频、下载音视频并通过 FFmpeg 合并为 MP4。
 使用 yt-dlp 的 Bilibili 提取器处理接口签名和媒体地址。默认下载第 1 P、当前访问权限下的最高可用清晰度，保存至当前工作目录的 `downloads/<BV号>/`。
 
